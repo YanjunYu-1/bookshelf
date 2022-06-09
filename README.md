@@ -1,3 +1,15 @@
+```java
+安装json运行环境
+npm i json-server
+npm i react-router-dom@6
+json-server --watch books.json --port 3010
+设置package.json想使用npm run dev但是不行
+```
+
+```java
+
+```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
