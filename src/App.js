@@ -9,11 +9,11 @@ function App() {
 
   useEffect(() =>{
     getBook().then((books)=>setBooks(books));
-    console.log(books);
+    // console.log(books);
   },[])
   const filteredBooks =(shelf)=>{
     return books.filter((book)=>book.shelf ===shelf);
-  }
+  };
 
   return (
     <>

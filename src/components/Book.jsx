@@ -1,5 +1,6 @@
-const Book = ({title}) => {
+const Book = ({book}) => {
     // console.log(book)
+    const {imageLinks,title,authors}=book;
     return (
         <li>
             <div className="book">
@@ -9,7 +10,8 @@ const Book = ({title}) => {
                         style={{
                             width: "128px",
                             height: "193px",
-                            backgroundImage: "url(http://books.google.com/books/content?id=bUybAgAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api)"
+                            backgroundImage: `url(${imageLinks.thumbnail})`
+                            // "url(http://books.google.com/books/content?id=bUybAgAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api)"
                         }}
 
                     ></div>
@@ -24,7 +26,7 @@ const Book = ({title}) => {
                     </div>
                 </div>
                 <div className="book-title">{title}</div>
-                <div className="book-authors">Rob Huddleston</div>
+                <div className="book-authors">{authors.join(",")}</div>
             </div>
         </li>
     );

@@ -29,7 +29,13 @@ style={{
 bookAPI取值后，就可以console.log查看
 
 ```java
+正确的
+{books.map((book)=>(
+  <Book key={book.id} book={book} />))}
 
+错误的（大括号）
+{books.map((book)=>{
+  <Book key={book.id} book={book} />})}
 ```
 
 # Getting Started with Create React App
