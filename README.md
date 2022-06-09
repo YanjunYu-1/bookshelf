@@ -6,7 +6,7 @@ json-server --watch books.json --port 3010
 设置package.json想使用npm run dev但是不行
 ```
 
-style格式调整
+# style格式调整
 ```java
 js
 style="
@@ -24,9 +24,9 @@ style={{
   backgroundImage: "url()"}}
 ```
 
-初始化的过程，应该考虑刚开始系统中不应该有任何信息，所以初始值为null。我们用[]是为了坚持啊数组是否存在
+### 初始化的过程，应该考虑刚开始系统中不应该有任何信息，所以初始值为null。我们用[]是为了坚持啊数组是否存在
 
-bookAPI取值后，就可以console.log查看
+### bookAPI取值后，就可以console.log查看
 
 ```java
 正确的
@@ -37,6 +37,21 @@ bookAPI取值后，就可以console.log查看
 {books.map((book)=>{
   <Book key={book.id} book={book} />})}
 ```
+
+```java
+一旦在select取值value={shelf}，必须要用onChange进行处理，否则报错
+```
+```java
+```
+```java
+```
+```java
+```
+```java
+```
+```java
+```
+
 
 # Getting Started with Create React App
 

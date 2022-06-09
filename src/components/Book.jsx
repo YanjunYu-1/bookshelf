@@ -1,6 +1,6 @@
 const Book = ({book}) => {
     // console.log(book)
-    const {imageLinks,title,authors}=book;
+    const {imageLinks,title,authors,shelf}=book;
     return (
         <li>
             <div className="book">
@@ -16,7 +16,7 @@ const Book = ({book}) => {
 
                     ></div>
                     <div className="book-shelf-changer">
-                        <select>
+                        <select >
                             <option value="move" disabled="">Move to...</option>
                             <option value="currentlyReading">Currently Reading</option>
                             <option value="wantToRead">Want to Read</option>
