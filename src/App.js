@@ -1,8 +1,15 @@
+import {useState,useEffect} from 'react'
+import {getBook} from './services/bookAPI'
 import './App.css';
 import BookShelf from './components/BookShelf'
 
-
 function App() {
+  const [books, setBooks] = useState([]);
+
+  useEffect(() =>{
+    getBook().then((books)=>setBooks(books));
+    console.log(books);
+  },[])
   return (
     <>
       <div className="app">

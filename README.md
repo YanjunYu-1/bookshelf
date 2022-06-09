@@ -24,6 +24,10 @@ style={{
   backgroundImage: "url()"}}
 ```
 
+初始化的过程，应该考虑刚开始系统中不应该有任何信息，所以初始值为null。我们用[]是为了坚持啊数组是否存在
+
+bookAPI取值后，就可以console.log查看
+
 ```java
 
 ```
