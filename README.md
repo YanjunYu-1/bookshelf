@@ -6,6 +6,24 @@ json-server --watch books.json --port 3010
 设置package.json想使用npm run dev但是不行
 ```
 
+style格式调整
+```java
+js
+style="
+  width: 128px;
+  height: 193px;
+  background-image: url('http://books.google.com/books/content?id=H8tNBKmPO5UC&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api');
+"
+```
+
+```java
+jsx
+style={{
+  width: "128px",
+  height: "193px",
+  backgroundImage: "url()"}}
+```
+
 ```java
 
 ```
