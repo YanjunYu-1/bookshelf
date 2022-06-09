@@ -1,12 +1,10 @@
 import BookList from '../components/BookList'
 
-const BookShelf = () => {
+const BookShelf = ({name,children}) => {
     return ( 
         <div className="bookshelf">
-                <h2 className="bookshelf-title">Currently Reading</h2>
-                <div className="bookshelf-books">
-                  <BookList />
-                </div>
+                <h2 className="bookshelf-title">{name}</h2>
+                <div className="bookshelf-books">{children}</div>
               </div>
      );
 }

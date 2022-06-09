@@ -42,7 +42,8 @@
       "previewLink": "http://books.google.com/books?id=bUybAgAAQBAJ&dq=android&hl=&cd=1&source=gbs_api",
       "infoLink": "http://books.google.com/books?id=bUybAgAAQBAJ&dq=android&hl=&source=gbs_api",
       "canonicalVolumeLink": "https://books.google.com/books/about/Best_Android_Apps.html?hl=&id=bUybAgAAQBAJ",
-      "id": "bUybAgAAQBAJ"
+      "id": "bUybAgAAQBAJ",
+      "shelf": "currentlyReading"
     },
     {
       "title": "The Android Invasion",
@@ -82,7 +83,8 @@
       "previewLink": "http://books.google.com/books?id=tsRhkvo80iUC&q=android&dq=android&hl=&cd=2&source=gbs_api",
       "infoLink": "http://books.google.com/books?id=tsRhkvo80iUC&dq=android&hl=&source=gbs_api",
       "canonicalVolumeLink": "https://books.google.com/books/about/The_Android_Invasion.html?hl=&id=tsRhkvo80iUC",
-      "id": "tsRhkvo80iUC"
+      "id": "tsRhkvo80iUC",
+      "shelf": "currentlyReading"
     },
     {
       "title": "Android",
@@ -343,7 +345,8 @@
       "previewLink": "http://books.google.com/books?id=QCbUxHcYLskC&printsec=frontcover&dq=android&hl=&cd=8&source=gbs_api",
       "infoLink": "https://play.google.com/store/books/details?id=QCbUxHcYLskC&source=gbs_api",
       "canonicalVolumeLink": "https://market.android.com/details?id=book-QCbUxHcYLskC",
-      "id": "QCbUxHcYLskC"
+      "id": "QCbUxHcYLskC",
+      "shelf": "read"
     },
     {
       "title": "Beginning Android 2",
@@ -385,7 +388,8 @@
       "previewLink": "http://books.google.com/books?id=2XeNswkT_2YC&pg=PA180&dq=android&hl=&cd=9&source=gbs_api",
       "infoLink": "http://books.google.com/books?id=2XeNswkT_2YC&dq=android&hl=&source=gbs_api",
       "canonicalVolumeLink": "https://books.google.com/books/about/Beginning_Android_2.html?hl=&id=2XeNswkT_2YC",
-      "id": "2XeNswkT_2YC"
+      "id": "2XeNswkT_2YC",
+      "shelf": "wantToRead"
     },
     {
       "title": "The Android Book",
@@ -423,7 +427,8 @@
       "previewLink": "http://books.google.com/books?id=Dco57IRQnLEC&printsec=frontcover&dq=android&hl=&cd=10&source=gbs_api",
       "infoLink": "https://play.google.com/store/books/details?id=Dco57IRQnLEC&source=gbs_api",
       "canonicalVolumeLink": "https://market.android.com/details?id=book-Dco57IRQnLEC",
-      "id": "Dco57IRQnLEC"
+      "id": "Dco57IRQnLEC",
+      "shelf": "wantToRead"
     },
     {
       "title": "Android Apps for Absolute Beginners",
