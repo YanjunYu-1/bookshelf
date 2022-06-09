@@ -4,6 +4,7 @@ import {getBook} from './services/bookAPI'
 import './App.css';
 import BookShelfPage from './Pages/BookShelf'
 import SearchPage from './Pages/Search'
+import BookList from './components/BookList'
 
 function App() {
   const [books, setBooks] = useState([]);
@@ -17,7 +18,8 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<BookShelfPage books={books} />}/>
-        <Route path="/search" element={<SearchPage />} />
+        <Route path="/search" element={<SearchPage children={<BookList books={books}/>} />}
+        />
 
       </Routes>
     </Router>

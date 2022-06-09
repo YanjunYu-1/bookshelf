@@ -1,10 +1,11 @@
+import { Link } from "react-router-dom"
 import BookShelf from '../components/BookShelf'
 import BookList from '../components/BookList'
 
-const BookShelfPage = ({books}) => {
-    const filteredBooks =(shelf)=>{
-        return books.filter((book)=>book.shelf ===shelf);
-      };
+const BookShelfPage = ({ books }) => {
+    const filteredBooks = (shelf) => {
+        return books.filter((book) => book.shelf === shelf);
+    };
 
     return (
         <>
@@ -27,7 +28,10 @@ const BookShelfPage = ({books}) => {
                             </BookShelf>
                         </div>
                     </div>
-                    <div className="open-search"><a href="search.html">Add a book</a></div>
+                    <div className="open-search">
+                        <Link to={"/search"}>Add a book</Link>
+                        {/* <a href="search.html">Add a book</a> */}
+                    </div>
                 </div>
             </div>
         </>
