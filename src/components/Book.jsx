@@ -1,5 +1,5 @@
-const Book = ({book}) => {
-    console.log(book)
+const Book = ({title}) => {
+    // console.log(book)
     return (
         <li>
             <div className="book">
@@ -23,7 +23,7 @@ const Book = ({book}) => {
                         </select>
                     </div>
                 </div>
-                <div className="book-title">Android Fully Loaded</div>
+                <div className="book-title">{title}</div>
                 <div className="book-authors">Rob Huddleston</div>
             </div>
         </li>
