@@ -43,7 +43,7 @@
       "infoLink": "http://books.google.com/books?id=bUybAgAAQBAJ&dq=android&hl=&source=gbs_api",
       "canonicalVolumeLink": "https://books.google.com/books/about/Best_Android_Apps.html?hl=&id=bUybAgAAQBAJ",
       "id": "bUybAgAAQBAJ",
-      "shelf": "currentlyReading"
+      "shelf": "read"
     },
     {
       "title": "The Android Invasion",
@@ -84,7 +84,7 @@
       "infoLink": "http://books.google.com/books?id=tsRhkvo80iUC&dq=android&hl=&source=gbs_api",
       "canonicalVolumeLink": "https://books.google.com/books/about/The_Android_Invasion.html?hl=&id=tsRhkvo80iUC",
       "id": "tsRhkvo80iUC",
-      "shelf": "currentlyReading"
+      "shelf": "none"
     },
     {
       "title": "Android",
@@ -126,7 +126,7 @@
       "infoLink": "http://books.google.com/books?id=xlp6NE2NWecC&dq=android&hl=&source=gbs_api",
       "canonicalVolumeLink": "https://books.google.com/books/about/Android.html?hl=&id=xlp6NE2NWecC",
       "id": "xlp6NE2NWecC",
-      "shelf": "none"
+      "shelf": "currentlyReading"
     },
     {
       "title": "Android Design Patterns",
@@ -174,7 +174,7 @@
       "infoLink": "https://play.google.com/store/books/details?id=Ifg1ZpSo7cwC&source=gbs_api",
       "canonicalVolumeLink": "https://market.android.com/details?id=book-Ifg1ZpSo7cwC",
       "id": "Ifg1ZpSo7cwC",
-      "shelf": "currentlyReading"
+      "shelf": "wantToRead"
     },
     {
       "title": "Android Apps Security",
